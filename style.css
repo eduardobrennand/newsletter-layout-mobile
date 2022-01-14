@@ -83,5 +83,32 @@
     font-size: 16px;
     line-height: 22px;
     color: #313131;
+}
 
+
+.layout-images-1 {
+    position: absolute;
+    width: 258px;
+    height: 178px;
+    margin-left: 58px;
+    border: 1px solid black;
+}
+
+.layout-images-2 {
+    position: relative;
+    width: 244px;
+    height: 276px;
+    left: 335px;
+    top: 34px;
+    z-index: 1;
+    border: 1px solid black;
+}
+
+.layout-images-3 {
+    position: relative;
+    width: 278px;
+    height: 148px;
+    border: 1px solid black;
+    top: 70px;
+    right: 160px;
 }

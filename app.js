@@ -37,9 +37,25 @@ document.addEventListener('DOMContentLoaded', function(){
             `
     }
 
+    function renderLayoutImages() {
+        layoutImages.innerHTML = `
+            <img class="layout-images-1" src="images/cozy-peepo.gif" alt="Pepe agasalhado">
+            <img class="layout-images-2" src="images/pepe-pepocheer.gif" alt="Pepe torcedor">
+            <img class="layout-images-3" src="images/pepe-ride-dog.gif" alt="Pepe no cachorro">
+            
+        `
+    }
+
+    function renderLayoutMainLower() {
+        layoutMainLower.innerHTML = `
+
+        `
+    }
+
     renderHeader();
     renderLayoutMainUpper();
     renderLayoutText();
+    renderLayoutImages();
 
 
 
