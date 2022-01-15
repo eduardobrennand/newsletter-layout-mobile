@@ -85,6 +85,9 @@
     color: #313131;
 }
 
+.layout-images {
+    margin-bottom: 100px;
+}
 
 .layout-images-1 {
     position: absolute;
@@ -111,4 +114,115 @@
     border: 1px solid black;
     top: 70px;
     right: 160px;
+}
+
+.layout-main-lower {
+    margin-top: 44px;
+    width: 640px;
+    height: 258px;
+    background-color: #F6F6F6;
+    ;
+}
+
+.layout-main-lower-ola {
+    position: relative;
+    left: 310px;
+    margin-bottom: 8px;
+    font-family: Encode Sans;
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 38px;
+    color: #00C8FF;
+}
+
+.layout-main-lower-numero {
+    position: relative;
+    left: 310px;
+    margin-bottom: 8px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #838383;
+}
+
+.layout-main-lower-email {
+    position: relative;
+    left: 310px;
+    margin-bottom: 32px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 15px;
+    color: #838383;
+    }
+
+.layout-main-lower-localizacao {
+    position: relative;
+    left: 310px;
+    margin-bottom: 8px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #838383;
+}
+
+.layout-main-lower-paragraph {
+    position: relative;
+    left: 310px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #838383;
+}
+
+.layout-main-lower-m3-logo {
+    position: relative;
+    left: 74px;
+    top: 112px;
+}
+
+.layout-lower-div {
+    margin-left: 94px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+.layout-lower-div-e-commerce {
+    margin-right: 70px;
+}
+
+.layout-footer {
+    height: 66px;
+    background-color: #313131;
+}
+
+.layout-footer-logos {
+    margin-left: 490px;
+}
+
+.layout-footer-logo {
+    margin-right: 24px;
+}
+
+.layout-footer-site {
+    position: relative;
+    left: 40px;
+    top: 24px;
+    font-family: Encode Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: lowercase;
+    color: #FFFFFF;
 }

@@ -48,7 +48,31 @@ document.addEventListener('DOMContentLoaded', function(){
 
     function renderLayoutMainLower() {
         layoutMainLower.innerHTML = `
+            <img class="layout-main-lower-m3-logo" src="images/logo-agencia-m3-cinza.png" alt="Logo da Agência M3">
+            <h2 class="layout-main-lower-ola">olá!</h2>
+            <h2 class="layout-main-lower-numero">+55 11 9999 9999</h2>
+            <p class="layout-main-lower-email">m3academy@digitalm3.com.br</p>
+            <h3 class="layout-main-lower-localizacao">NOVA FRIBURGO</h3>
+            <p class="layout-main-lower-paragraph">+55 99999999</p>
+        `
+    }
 
+    function renderLayoutLowerDiv() {
+        layoutLowerDiv.innerHTML = `
+            <img class="layout-lower-div-google" src="images/google-partner.png" alt="Logo do Google Partner">
+            <img class="layout-lower-div-e-commerce" src="images/e-commerce.png" alt="E-Commerce Brasil">
+            <img class="layout-lower-div-m3-logo" src="images/logo-agencia-m3-cinza.png" alt="Logo da Agência M3">
+        `
+    }
+
+    function renderLayoutFooter() {
+        layoutFooter.innerHTML = `
+            <h3 class="layout-footer-site">WWW.DIGITALM3.COM.BR</h3>
+            <div class="layout-footer-logos">
+                <img class="layout-footer-logo" src="images/logo-facebook.png" alt="Logo do Facebook">
+                <img class="layout-footer-logo" src="images/logo-instagram.png" alt="Logo do Instagram">
+                <img class="layout-footer-logo" src="images/logo-linkedin.png" alt="Logo do Linkedin">
+            </div>
         `
     }
 
@@ -56,6 +80,9 @@ document.addEventListener('DOMContentLoaded', function(){
     renderLayoutMainUpper();
     renderLayoutText();
     renderLayoutImages();
+    renderLayoutMainLower();
+    renderLayoutLowerDiv();
+    renderLayoutFooter();
 
 
 
