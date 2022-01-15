@@ -226,3 +226,117 @@
     text-transform: lowercase;
     color: #FFFFFF;
 }
+
+
+@media screen and (max-width: 500px) {
+    .layout-header-text-wrapper {
+        margin-left: -100px;
+        margin-top: 54px;
+        margin-bottom: 8px;
+    }
+
+    .layout-header-image {
+        margin-left: 20px;
+    }
+
+    .layout-header-text {
+        margin-right: 10px;
+
+    }
+
+    .layout-main-upper-text {
+        font-size: 22px;
+        bottom: 340px;
+        left: 64px;
+        width: 300px;
+    }
+
+    .layout-main-upper-image {
+        left: 120px;
+    }
+
+    .layout-paragraph {
+        margin-left: 39px;
+        font-size: 12px;
+        width: 300px;
+        margin-bottom: 76px;
+    }
+
+    .layout-images {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+
+    .layout-images-1 {
+        position: static;
+    }
+
+    .layout-images-2 {
+        position: static;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 58px;
+    }
+
+    .layout-images-3 {
+        position: static;
+        margin-top: 10;
+        margin-left: 58px;
+    }
+
+    .layout-main-lower {
+        max-width: 640px;
+    }
+
+    .layout-main-lower-text {
+        margin-left: 100px;
+    }
+
+    .layout-main-lower-ola {
+        position: revert;
+        margin-left: 46px;
+    }
+
+    .layout-main-lower-numero {
+        position: revert;
+    }
+
+    .layout-main-lower-email {
+        position: revert;
+    }
+
+    .layout-main-lower-localizacao {
+        position: revert;
+    }
+
+    .layout-main-lower-paragraph {
+        position: revert;
+    }
+
+    .layout-main-lower-m3-logo {
+        position: revert;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    .layout-lower-div {
+        display: grid;
+        margin-left: 0;
+        justify-items: start;
+        justify-content: center;
+    }
+
+    .layout-lower-div-e-commerce {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .layout-footer-logos {
+        margin-left: 220px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+}

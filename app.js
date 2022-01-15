@@ -41,19 +41,20 @@ document.addEventListener('DOMContentLoaded', function(){
         layoutImages.innerHTML = `
             <img class="layout-images-1" src="images/cozy-peepo.gif" alt="Pepe agasalhado">
             <img class="layout-images-2" src="images/pepe-pepocheer.gif" alt="Pepe torcedor">
-            <img class="layout-images-3" src="images/pepe-ride-dog.gif" alt="Pepe no cachorro">
-            
+            <img class="layout-images-3" src="images/pepe-ride-dog.gif" alt="Pepe no cachorro">    
         `
     }
 
     function renderLayoutMainLower() {
         layoutMainLower.innerHTML = `
             <img class="layout-main-lower-m3-logo" src="images/logo-agencia-m3-cinza.png" alt="Logo da Agência M3">
-            <h2 class="layout-main-lower-ola">olá!</h2>
-            <h2 class="layout-main-lower-numero">+55 11 9999 9999</h2>
-            <p class="layout-main-lower-email">m3academy@digitalm3.com.br</p>
-            <h3 class="layout-main-lower-localizacao">NOVA FRIBURGO</h3>
-            <p class="layout-main-lower-paragraph">+55 99999999</p>
+            <div class="layout-main-lower-text">
+                <h2 class="layout-main-lower-ola">olá!</h2>
+                <h2 class="layout-main-lower-numero">+55 11 9999 9999</h2>
+                <p class="layout-main-lower-email">m3academy@digitalm3.com.br</p>
+                <h3 class="layout-main-lower-localizacao">NOVA FRIBURGO</h3>
+                <p class="layout-main-lower-paragraph">+55 99999999</p>      
+            </div>
         `
     }
 
